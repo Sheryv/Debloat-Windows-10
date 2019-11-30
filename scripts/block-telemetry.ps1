@@ -105,7 +105,7 @@ $domains = @(
     "secure.flashtalking.com"
     "services.wes.df.telemetry.microsoft.com"
     "settings-sandbox.data.microsoft.com"
-    "settings-win.data.microsoft.com"
+    #"settings-win.data.microsoft.com"       # may cause issues with Windows Updates
     "sls.update.microsoft.com.akadns.net"
     #"sls.update.microsoft.com.nsatc.net"    # may cause issues with Windows Updates
     "sqm.df.telemetry.microsoft.com"
@@ -211,7 +211,7 @@ $ips = @(
     "204.79.197.200"
     "23.218.212.69"
     "65.39.117.230"
-    "65.52.108.33"
+    "65.52.108.33"   # Causes problems with Microsoft Store
     "65.55.108.23"
     "64.4.54.254"
 )
